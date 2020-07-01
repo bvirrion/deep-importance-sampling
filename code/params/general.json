@@ -1,0 +1,20 @@
+{
+    "Run": {
+        "DoLVGraph": false,
+        "ShowLVGraph": false,
+        "DoImpGraph": false,
+        "ShowImpGraph": false,
+        "DoGraph": false,
+        "DoSingleRun": true,
+        "DoWeightsGraph": false,
+        "ShowWeightsGraph": false,
+        "DoTrajectoriesGraph": false,
+        "ShowTrajectoriesGraph": false,
+        "DoEvalAOnGrid": true,
+        "ShowEvalAOnGrid": true,
+        "DoFullRun": false,
+        "DoRobustGraphs": false,
+        "RatioNumberOfBatchesForTraining": 1,
+        "RatioNumberOfBatchesForEval": 1
+    }
+}

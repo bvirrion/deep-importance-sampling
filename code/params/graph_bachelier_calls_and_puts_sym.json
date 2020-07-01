@@ -1,0 +1,45 @@
+{
+    "Payoff": "Calls&Puts",
+    "Conf": "Calls&PutsSym",
+    "PayoffChars": {
+        "T": 1.0,
+        "NTime": 6,
+        "K": 1.4,
+        "K_2": 0.6,
+        "NumberOfCalls": 10,
+        "NumberOfPuts": 10,
+        "comment": "good value for K, 1.4, K_2, 0.6, NumberOfCalls, 10, NumberOfPuts, 10"
+    },
+    "Graph": {
+        "XMin": 0.5,
+        "StepSize": 0.05,
+        "NumberOfSteps": 21,
+        "ShowGraph": false,
+        "Save": true,
+        "comment": "good value for XMin, 0.5, StepSize, 0.05, NumberOfSteps, 21"
+    },
+    "Run": {
+        "NumberOfBatchesForTraining": 100,
+        "LearningRate": 0.03,
+        "ListLearningRates": [0.003, 0.003, 0.003, 0.01, 0.01,
+                              0.01, 0.01, 0.01, 0.03, 0.03,
+                              0.03,
+                              0.03, 0.03, 0.01, 0.01, 0.01,
+                              0.003, 0.003, 0.003, 0.003, 0.003],
+        "DoAutomaticLearningRate": false,
+        "DoListLearningRates": true,
+        "BaseForAutomaticLearningRate": 0.0001,
+        "NumberOfBatchesForEval": 10000,
+        "DoGraph": true,
+        "comment": "good value for NumberOfBatchesForTraining, 100, LearningRate, 0.01, NumberofBatchesForEval, 10000"
+    },
+    "NN": {
+        "DoAutomaticLambdaConstraint": true,
+        "BaseForAutomaticLambdaConstraint": 0.3,
+        "Constraint": 10.0,
+        "LambdaConstraint": 0.1,
+        "NIterShowProportion": 10,
+        "NBatchChangeProportion": 100,
+        "NBatchSize": 1000
+    }
+}
