@@ -1,0 +1,9 @@
+**/.idea/
+**/venv/
+**/out/
+**/__pycache__/
+**/venv_tf_1-13/
+**/temp/
+timeline*
+**/venv_gpu/
+**/figures/
