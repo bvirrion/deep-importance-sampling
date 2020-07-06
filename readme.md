@@ -27,7 +27,7 @@ The code runs with:
 
 The project consists of 3 main files, as well as a params directory. 
 
-- main.pdf is the scientific article also available on arXiv describing the algorithm. 
+- main.pdf is the scientific article also available on HAL (https://hal.archives-ouvertes.fr/hal-02887331) describing the algorithm. 
 - main.py contains most of the non tensorflow code, which generates most graphs
 - NN.py contains most tensorflow related code, with the construction of neural networks and trajectories
 - The params folders contains the parameters used for each specific payoff, volatility parameter and diffusion type, as well as the general run parameters. 
